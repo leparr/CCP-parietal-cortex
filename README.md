@@ -23,7 +23,7 @@ Code to visualize the activity of the SNN WTA after testing:
 Code to visualize the SNN inner structure:
   - Synaptic Kernel
   - Lerned weights
-  - Temoral evolution of weights
+  - Temporal evolution of weights
   - Kernel Density Estimation of weights
 
 ## Training & testing
