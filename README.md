@@ -18,7 +18,7 @@ Code to visualize the activity of the SNN WTA after testing:
   - Cumulative regime of WTA clusters
   - Rasterplot
   - Evolution of Mean Firing rate
-  - 
+    
 ## Network Visualization
 Code to visualize the SNN inner structure:
   - Synaptic Kernel
