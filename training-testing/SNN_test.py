@@ -244,9 +244,10 @@ spikes_hid = SpikeMonitor (L_hid)
 spikes_rec = SpikeMonitor(L_rec)
 spikes_inh = SpikeMonitor(L_inh)
 state_rec = StateMonitor (L_rec,variables=['Iin_clip'], record=(True),dt = 0.48828125*ms)
+
 network.add (L_in, L_hid, L_rec, L_inh, PG_noise,
              spikes_in, spikes_hid, spikes_rec, 
-             s_in, s_hr, s_rec, s_ei, s_inh,s_noise)
+             s_in, s_hr, s_rec, s_ei, s_inh,s_noise, state_rec)
 
 print ('Time to create the network = ' + str (time.time()-t2))
 
