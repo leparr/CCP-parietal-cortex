@@ -5,6 +5,7 @@
 
 from matplotlib import pyplot as plt
 import seaborn as sns
+import scipy
 
 EPSP = state.Iin_clip
 
